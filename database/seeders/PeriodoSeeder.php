@@ -14,5 +14,6 @@ class PeriodoSeeder extends Seeder
     public function run(): void
     {
         Periodo::factory()->count(10)->create();
+        
     }
 }
